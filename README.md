@@ -25,11 +25,16 @@ Run the following command from the terminal:
 Log a random user to file from API or Command:
 
 ### Api
-- POST `/users/random`
+- POST `/api/users/random`
 
 ### Command
 ```
 php artisan command:users:random
+```
+
+### Execute queue worker
+```
+php artisan queue:work
 ```
 
 ## Run tests
