@@ -22,9 +22,10 @@ Run the following command from the terminal:
 ```
 
 ## Usage
+Log a random user to file from API or Command:
 
 ### Api
-- POST `/users/random`: Log a random user to file
+- POST `/users/random`
 
 ### Command
 ```
